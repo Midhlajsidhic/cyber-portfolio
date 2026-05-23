@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midhlaj Sidhick | Cybersecurity Engineer & SOC Analyst Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+    <header class="navbar no-print">
+        <div class="logo">
+            <span class="pulse-icon"></span>
+            <span class="logo-text">SEC_PORTFOLIO // MIDHLAJ_SIDHICK</span>
+        </div>
+        <nav class="nav-links">
+            <button class="nav-btn active" data-target="pdf-view">📄 Paper Resume</button>
+            <button class="nav-btn" data-target="terminal-view">💻 Cyber Terminal</button>
+            <button class="nav-btn" data-target="edr-view">⚡ EDR Lab</button>
+            <button class="nav-btn" data-target="text-view">🔍 ATS Parser View</button>
+        </nav>
+        <div class="controls">
+            <button id="theme-toggle" class="control-btn" title="Toggle Theme">🌓 Theme</button>
+            <button id="print-btn" class="control-btn primary-btn">🖨️ Print / Save PDF</button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- PAGE 1: PRINTABLE PAPER RESUME VIEW -->
+        <section id="pdf-view" class="view-section active">
+            <div class="resume-paper-container">
+                <div class="resume-paper" id="resume-page">
+                    <!-- HEADER -->
+                    <div class="resume-header">
+                        <h1 class="candidate-name">MIDHLAJ SIDHICK</h1>
+                        <h2 class="candidate-title">Cybersecurity Engineer | SOC Analyst | Security Operations</h2>
+                        <div class="contact-grid">
+                            <span>📞 +91 9605114550</span>
+                            <span>📧 <a href="mailto:midhlajsidhick1@gmail.com">midhlajsidhick1@gmail.com</a></span>
+                            <span>🔗 <a href="https://linkedin.com/in/midhlaj-sidick007" target="_blank">linkedin.com/in/midhlaj-sidick007</a></span>
+                        </div>
+                    </div>
+
+                    <!-- SPLIT LAYOUT -->
+                    <div class="resume-split-layout">
+                        <!-- LEFT NARROW COLUMN (32%) -->
+                        <aside class="left-column">
+                            <section class="resume-section">
+                                <h3 class="section-title">Education</h3>
+                                <div class="education-item">
+                                    <h4 class="inst-name">Ilahia College of Engineering</h4>
+                                    <p class="deg-name">B.Tech in Computer Science (Cybersecurity)</p>
+                                    <p class="edu-meta">KTU University | 2022 – 2026</p>
+                                </div>
+                            </section>
+
+                            <section class="resume-section">
+                                <h3 class="section-title">Core Skills</h3>
+                                <div class="skills-category">
+                                    <h5>Security Ops & SIEM</h5>
+                                    <p>Log Analysis, Threat Detection, Incident Response, ELK Stack (Basics)</p>
+                                </div>
+                                <div class="skills-category">
+                                    <h5>VAPT & Offensive Security</h5>
+                                    <p>Network Scanning, Vulnerability Assessment, Reconnaissance, VAPT</p>
+                                </div>
+                                <div class="skills-category">
+                                    <h5>Tools & Technologies</h5>
+                                    <p>Nmap, Burp Suite, Wireshark, Hydra, Autopsy, ESP32, Git, GitHub</p>
+                                </div>
+                                <div class="skills-category">
+                                    <h5>Operating Systems & Networks</h5>
+                                    <p>Linux (Kali, Ubuntu Admin), Windows Security, TCP/IP, DNS, HTTP/HTTPS</p>
+                                </div>
+                                <div class="skills-category">
+                                    <h5>Programming & Automation</h5>
+                                    <p>Python (Security Scripting, Log Automation), Bash scripting</p>
+                                </div>
+                            </section>
+
+                            <section class="resume-section">
+                                <h3 class="section-title">Certifications</h3>
+                                <ul class="certs-list">
+                                    <li><strong>Ethical Hacking</strong><br>Offense Hackers Academy</li>
+                                    <li><strong>Ethical Hacking</strong><br>Cisco Networking Academy</li>
+                                    <li><strong>Foundations of Cybersecurity</strong><br>Google Certificate</li>
+                                </ul>
+                            </section>
+
+                            <section class="resume-section">
+                                <h3 class="section-title">Achievements</h3>
+                                <ul class="achieve-list">
+                                    <li>🏆 <strong>3rd Place — National CTF</strong><br>ASIET Hackathon (50+ teams)</li>
+                                    <li>🎯 <strong>Advent of Cyber 2024</strong><br>Completed 24-day TryHackMe challenges</li>
+                                </ul>
+                            </section>
+
+                            <section class="resume-section">
+                                <h3 class="section-title">Languages</h3>
+                                <p class="lang-text">English (Professional) | Malayalam (Native)</p>
+                            </section>
+                        </aside>
+
+                        <!-- RIGHT WIDE COLUMN (65%) -->
+                        <div class="right-column">
+                            <section class="resume-section">
+                                <h3 class="section-title">Professional Summary</h3>
+                                <p class="summary-text">
+                                    Results-driven B.Tech Computer Science (Cybersecurity) graduate with hands-on experience in Security Operations (SOC), penetration testing, and AI-driven threat detection. Skilled in Linux administration, network security, and Python automation. Proven leadership capabilities as Department Chairman and NSS Secretary. Seeking entry-level roles in SOC, Cloud/Security Operations, or Linux Support.
+                                </p>
+                            </section>
+
+                            <section class="resume-section">
+                                <h3 class="section-title">Experience</h3>
+                                <div class="exp-item">
+                                    <div class="exp-header">
+                                        <h4 class="job-title">Server Administrator Intern</h4>
+                                        <span class="job-date">May 2026 – Present</span>
+                                    </div>
+                                    <p class="company-loc">Hashroot | Kakkanad, Kochi (Infopark)</p>
+                                    <ul class="resume-bullets">
+                                        <li>Assisted in Linux/Windows server administration, user privilege management, and security patch deployments.</li>
+                                        <li>Configured secure remote access (SSH key authentication, firewalls) and monitored system logs to identify anomalies.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="exp-item">
+                                    <div class="exp-header">
+                                        <h4 class="job-title">Cybersecurity & Ethical Hacking Intern</h4>
+                                        <span class="job-date">June 2025</span>
+                                    </div>
+                                    <p class="company-loc">Techmagi | Kakkanad, Kochi</p>
+                                    <ul class="resume-bullets">
+                                        <li>Performed network scanning, host reconnaissance, and vulnerability analysis using Nmap and Burp Suite in sandboxed lab environments.</li>
+                                        <li>Analyzed network traffic logs with Wireshark to isolate suspicious patterns.</li>
+                                        <li>Drafted technical VAPT reports summarizing vulnerability findings using CVSS metrics.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="exp-item">
+                                    <div class="exp-header">
+                                        <h4 class="job-title">Ethical Hacking Intern</h4>
+                                        <span class="job-date">Jan 2025</span>
+                                    </div>
+                                    <p class="company-loc">Techbyheart | Kochi, Kerala</p>
+                                    <ul class="resume-bullets">
+                                        <li>Conducted vulnerability assessments and penetration testing simulations on Linux-based virtual environments.</li>
+                                        <li>Identified and reported weaknesses in SSH, FTP, and web services, offering actionable remediation options.</li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <section class="resume-section">
+                                <h3 class="section-title">Project Experience</h3>
+                                <div class="project-item">
+                                    <div class="project-header">
+                                        <h4 class="project-name">AI-Powered Endpoint Detection & Response (EDR)</h4>
+                                        <span class="project-tech">Python, LLM</span>
+                                    </div>
+                                    <ul class="resume-bullets">
+                                        <li>Engineered a simulated EDR host agent to monitor OS logs and detect threat patterns in real-time.</li>
+                                        <li>Built a Python-based pipeline to parse system event logs and flag malicious activities.</li>
+                                        <li>Integrated an LLM-based alert classifier to evaluate event logs, reducing false positives by 40%.</li>
+                                        <li>Programmed automated incident mitigation scripts (e.g. process termination) upon high-risk triggers.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="project-item">
+                                    <div class="project-header">
+                                        <h4 class="project-name">Electronic Device Localization System</h4>
+                                        <span class="project-tech">ESP32, Python GUI</span>
+                                    </div>
+                                    <ul class="resume-bullets">
+                                        <li>Developed an ESP32 wireless threat monitoring system to track Wi-Fi & Bluetooth probe requests.</li>
+                                        <li>Programmed RSSI-based localization algorithms with ~95% tracking accuracy.</li>
+                                        <li>Created a custom Python desktop GUI for real-time tracking visualization and event logs.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="project-item no-margin-project">
+                                    <div class="project-header">
+                                        <h4 class="project-name">AI Security & Prompt Injection Testing</h4>
+                                        <span class="project-tech">AI Threat Research</span>
+                                    </div>
+                                    <ul class="resume-bullets">
+                                        <li>Conducted testing of prompt injection vectors, mapping flaws against OWASP Top 10 for LLMs.</li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <section class="resume-section">
+                                <h3 class="section-title">Leadership & Co-Curricular</h3>
+                                <ul class="resume-bullets">
+                                    <li><strong>Department Chairman (AI & CS Association):</strong> Managed 15+ student coordinators to host tech fests and workshops for 300+ peers.</li>
+                                    <li><strong>NSS Volunteer Secretary:</strong> Led regional community initiatives and structured communications with college administration.</li>
+                                    <li><strong>College Union Representative:</strong> Elected student advocate for two consecutive terms, managing campus-wide academic and cultural programs.</li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 2: CYBER TERMINAL INTERACTIVE CLI -->
+        <section id="terminal-view" class="view-section">
+            <div class="terminal-container">
+                <div class="terminal-header">
+                    <span class="terminal-dot close"></span>
+                    <span class="terminal-dot minimize"></span>
+                    <span class="terminal-dot maximize"></span>
+                    <span class="terminal-title">bash -- security-portfolio@midhlaj-sec:~</span>
+                </div>
+                <div class="terminal-body" id="terminal-output">
+                    <div class="terminal-line text-system">System initialization complete. Midhlaj Sidhick Portfolio CLI v1.0.0.</div>
+                    <div class="terminal-line text-system">Type <span class="highlight">help</span> to list available commands.</div>
+                    <br>
+                    <div class="terminal-prompt-line">
+                        <span class="terminal-prompt">guest@infopark-recruiter:~$</span>
+                        <input type="text" id="terminal-input" autofocus autocomplete="off" spellcheck="false">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 3: EDR LAB SIMULATOR -->
+        <section id="edr-view" class="view-section">
+            <div class="edr-container">
+                <div class="edr-control-panel">
+                    <h3>⚡ AI-EDR Threat Simulation Laboratory</h3>
+                    <p>Demonstration of Midhlaj's AI-EDR Python project. Trigger a simulated security event to test threat detection and automated response pipelines.</p>
+                    
+                    <div class="attack-buttons">
+                        <button class="attack-btn" data-attack="bruteforce">💥 Brute Force Attack (SSH)</button>
+                        <button class="attack-btn" data-attack="ransomware">🔒 Ransomware File Modification</button>
+                        <button class="attack-btn" data-attack="sqlinjection">Inject SQL Injection String</button>
+                        <button class="attack-btn" data-attack="recon">🔍 Host Recon (Port Scan)</button>
+                    </div>
+
+                    <div class="edr-status-panel">
+                        <h4>System Status</h4>
+                        <div class="status-grid">
+                            <div class="status-item">
+                                <span class="label">EDR Agent:</span>
+                                <span class="value text-success" id="edr-agent-status">ACTIVE</span>
+                            </div>
+                            <div class="status-item">
+                                <span class="label">AI Parser:</span>
+                                <span class="value text-success" id="edr-ai-status">ONLINE</span>
+                            </div>
+                            <div class="status-item">
+                                <span class="label">Response Eng:</span>
+                                <span class="value text-success" id="edr-action-status">READY</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edr-log-panel">
+                    <div class="log-header">
+                        <span>Console Logs: EDR Host Monitor</span>
+                        <button id="clear-logs">Clear Logs</button>
+                    </div>
+                    <div class="log-body" id="edr-logs">
+                        <div class="log-row info">[+] 2026-05-23 13:51:00 - EDR agent initialization complete...</div>
+                        <div class="log-row info">[+] 2026-05-23 13:51:00 - Centralized log pipeline listening on syslogs...</div>
+                        <div class="log-row info">[+] 2026-05-23 13:51:00 - Alert triage LLM models loaded in background...</div>
+                        <div class="log-row success">[*] 2026-05-23 13:51:01 - Status Check: 0 malicious events detected in the last 24 hours. System Clean.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 4: ATS PARSER PLAIN TEXT VIEW -->
+        <section id="text-view" class="view-section">
+            <div class="text-container">
+                <div class="text-header">
+                    <h3>🔍 ATS Parser Plain Text View</h3>
+                    <p>ATS software reads raw text nodes in linear order. This view shows how an ATS will extract text from this resume, showing a clean, 100% compliant sequential structure.</p>
+                    <button id="copy-text-btn" class="control-btn primary-btn">📋 Copy Plain Text Resume</button>
+                </div>
+                <textarea id="plain-text-box" readonly></textarea>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer no-print">
+        <p>&copy; 2026 Midhlaj Sidhick. Hand-crafted with modern HTML, CSS, and JS. Optimized for recruitment & ATS parsers.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
