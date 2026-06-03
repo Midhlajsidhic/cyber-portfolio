@@ -53,11 +53,12 @@ Cybersecurity Engineer | SOC Analyst | Security Operations
 Phone: +91 9605114550
 Email: midhlajsidhick1@gmail.com
 LinkedIn: linkedin.com/in/midhlaj-sidick007
+Portfolio & Labs: midhlajsidhic.github.io/cyber-portfolio/
 
 =========================================
 PROFESSIONAL SUMMARY
 =========================================
-Results-driven B.Tech Computer Science (Cybersecurity) graduate with hands-on experience in Security Operations (SOC), server administration, and AI-driven threat detection. Skilled in Linux environments, network security configuration, and Python scripting. Proven leadership capabilities as Department Chairman and NSS Secretary. Seeking entry-level roles in SOC, Cloud/Security Operations, or Linux Support.
+Results-driven Computer Science (Cybersecurity) graduate with hands-on experience in Security Operations (SOC), AWS cloud security, and Linux administration (AlmaLinux/Ubuntu Server). Skilled in scripting, system auditing, and network security configuration. Proven leadership capabilities as Department Chairman and NSS Secretary. Seeking entry-level roles in SOC, Cloud/Security Operations, or Linux Support.
 
 =========================================
 CORE SKILLS
@@ -65,7 +66,7 @@ CORE SKILLS
 * Security Operations & SIEM: Log Analysis, Threat Detection, Incident Response, ELK Stack (Basics), Windows/Linux Auditing
 * VAPT & Offensive Security: Network Scanning, Vulnerability Assessment, Reconnaissance, VAPT, OSINT
 * Tools & Technologies: Nmap, Burp Suite, Wireshark, Hydra, Autopsy, ESP32, Git, GitHub
-* Operating Systems & Networks: Linux (Kali Linux, Ubuntu Admin), Windows Security, TCP/IP, DNS, HTTP/HTTPS, Routing & Switching
+* Systems, Cloud & Networks: Linux (AlmaLinux, Rocky, Kali, Ubuntu Admin), AWS (EC2, S3, IAM, VPC), Windows Server, TCP/IP
 * Programming & Automation: Python (Log Automation, Scripting, Analysis Pipelines), Bash scripting
 * Languages: English (Professional), Malayalam (Native)
 
@@ -74,8 +75,8 @@ PROFESSIONAL EXPERIENCE
 =========================================
 Server Administrator Intern
 Hashroot | Kakkanad, Kochi (Infopark) (May 2026 - Present)
-* Assisted in Linux/Windows server administration, user privilege management, and security patch deployments.
-* Configured secure remote access (SSH key authentication, firewalls) and monitored system logs to identify anomalies.
+* Assisted in Linux (AlmaLinux, Ubuntu) and Windows server administration, user management, and security patch deployments.
+* Configured remote access protocols (SSH, firewalls) and deployed infrastructure monitoring agents on AWS instances (EC2, S3).
 
 Cybersecurity & Ethical Hacking Intern
 Techmagi | Kakkanad, Kochi (June 2025)
@@ -211,8 +212,8 @@ ACHIEVEMENTS & LEADERSHIP
                 writeTerminalLine('--- TECHNICAL COMPETENCY MATRIX ---', 'text-yellow');
                 writeTerminalLine('SIEM & SOC Operations  [████████░░] 80% - ELK Stack (Basics), Log Parsing');
                 writeTerminalLine('VAPT & Network Sec     [█████████░] 90% - Nmap, Burp Suite, VAPT, Wireshark');
-                writeTerminalLine('Systems & Scripting    [█████████░] 90% - Python, Bash Scripting, Linux (Kali/Ubuntu)');
-                writeTerminalLine('Cloud Security         [██████░░░░] 60% - Core security guidelines & architecture');
+                writeTerminalLine('Systems & Scripting    [█████████░] 90% - Python, Bash, Linux (AlmaLinux, Ubuntu Server, Kali)');
+                writeTerminalLine('Cloud Security & AWS   [███████░░░] 70% - AWS (EC2, S3, IAM, VPC), Cloud Auditing');
                 break;
 
             case 'projects':
@@ -229,7 +230,7 @@ ACHIEVEMENTS & LEADERSHIP
             case 'experience':
                 writeTerminalLine('--- PROFESSIONAL INTERNSHIPS ---', 'text-yellow');
                 writeTerminalLine('1. Server Administrator Intern @ Hashroot, Kakkanad (May 2026 - Present)', 'text-cyan');
-                writeTerminalLine('   * Administered Linux/Windows infrastructure, managed system firewalls, and audited log patterns.');
+                writeTerminalLine('   * Administered Linux (AlmaLinux/Ubuntu) & Windows systems; deployed monitoring on AWS (EC2/S3).');
                 writeTerminalLine('2. Cybersecurity & VAPT Intern @ Techmagi, Kakkanad (June 2025)', 'text-cyan');
                 writeTerminalLine('   * Managed network audits using Kali Linux frameworks, drafting CVSS vulnerability logs.');
                 writeTerminalLine('3. Ethical Hacking Intern @ Techbyheart, Kochi (Jan 2025)', 'text-cyan');
@@ -238,9 +239,10 @@ ACHIEVEMENTS & LEADERSHIP
 
             case 'contact':
                 writeTerminalLine('--- CONNECTION DETAILS ---', 'text-yellow');
-                writeTerminalLine('Phone:    +91 9605114550');
-                writeTerminalLine('Email:    midhlajsidhick1@gmail.com');
-                writeTerminalLine('LinkedIn: <a href="https://linkedin.com/in/midhlaj-sidick007" target="_blank" style="color:#00ff66; text-decoration:underline;">linkedin.com/in/midhlaj-sidick007</a>');
+                writeTerminalLine('Phone:     +91 9605114550');
+                writeTerminalLine('Email:     midhlajsidhick1@gmail.com');
+                writeTerminalLine('LinkedIn:  <a href="https://linkedin.com/in/midhlaj-sidick007" target="_blank" style="color:#00ff66; text-decoration:underline;">linkedin.com/in/midhlaj-sidick007</a>');
+                writeTerminalLine('Portfolio: <a href="https://midhlajsidhic.github.io/cyber-portfolio/" target="_blank" style="color:#00ff66; text-decoration:underline;">midhlajsidhic.github.io/cyber-portfolio/</a>');
                 break;
 
             case 'clear':
