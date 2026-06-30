@@ -1,0 +1,211 @@
+%-------------------------
+% Two-Column / Split-Page Resume in LaTeX (ATS Friendly & Premium HR Layout)
+% Tailored for Cybersecurity / SOC Analyst / Linux Operations
+% Optimized for Infopark Kochi Hiring Standards
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{geometry}
+\usepackage{helvet} % Helvetica font for clean modern look
+\renewcommand{\familydefault}{\sfdefault}
+\input{glyphtounicode}
+
+% Margins optimized for single-page fit
+\geometry{
+  letterpaper,
+  left=0.38in,
+  right=0.38in,
+  top=0.38in,
+  bottom=0.38in
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+
+% Ensure that generated PDF is machine readable / ATS parsable
+\pdfgentounicode=1
+
+% Section formatting - Custom Teal/Steel Blue Color
+\definecolor{SlateTeal}{RGB}{18, 93, 114}
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large\bfseries\color{SlateTeal}
+}{}{0em}{}[\color{black}\titrule \vspace{-5pt}]
+
+% Custom list commands to save vertical space
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.12in, labelsep=4pt, itemsep=1.5pt, parsep=0pt, topsep=2pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADER (Centered, Professional & ATS Compliant)----------
+\begin{center}
+    {\Huge \textbf{\scshape Midhlaj Sidhick}} \\ \vspace{3pt}
+    {\large \textbf{\color{SlateTeal} Cybersecurity Engineer $|$ SOC Analyst $|$ Security Operations}} \\ \vspace{5pt}
+    \small 
+    \href{tel:+919605114550}{+91 9605114550} $|$ 
+    \href{mailto:midhlajsidhick1@gmail.com}{midhlajsidhick1@gmail.com} $|$ 
+    \href{https://linkedin.com/in/midhlaj-sidick007}{linkedin.com/in/midhlaj-sidick007} $|$
+    \href{https://midhlajsidhic.github.io/cyber-portfolio/}{midhlajsidhic.github.io/cyber-portfolio/}
+\end{center}
+
+\vspace{0.03in}
+
+%----------MAIN BODY (Visual Split: Left Side 33%, Right Side 63%)----------
+\begin{minipage}[t]{0.33\textwidth}
+  \raggedright
+  
+  %-----------EDUCATION-----------
+  \section{Education}
+    \textbf{Ilahia College \\ of Engineering}\\
+    \textit{\small{B.Tech in Computer Science (Cybersecurity)}}\\
+    \small{KTU University}\\
+    \small{Batch: 2022 -- 2026}
+    
+  \vspace{0.08in}
+  
+  %-----------CORE SKILLS-----------
+  \section{Core Skills}
+    \textbf{Security Ops \& SIEM}\\
+    \small{Log Analysis, Threat Detection, Incident Response, ELK Stack (Basics)}
+    
+    \vspace{0.04in}
+    \textbf{VAPT \& Offensive Security}\\
+    \small{Network Scanning, Vulnerability Assessment, Reconnaissance, VAPT}
+    
+    \vspace{0.04in}
+    \textbf{Tools \& Technologies}\\
+    \small{Nmap, Burp Suite, Wireshark, Hydra, Autopsy, ESP32, Git, GitHub}
+    
+    \vspace{0.04in}
+    \textbf{Systems, Cloud \& Networks}\\
+    \small{Linux (AlmaLinux, Rocky, Kali, Ubuntu Admin), AWS (EC2, S3, IAM, VPC), Windows Server, TCP/IP}
+    
+    \vspace{0.04in}
+    \textbf{Programming \& Automation}\\
+    \small{Python (Log Automation, Scripting), Bash scripting}
+    
+  \vspace{0.08in}
+
+  %-----------CERTIFICATIONS-----------
+  \section{Certifications}
+    \small{-- \textbf{Ethical Hacking} \\ \textit{Offense Hackers Academy}} \\ \vspace{2pt}
+    \small{-- \textbf{Ethical Hacking} \\ \textit{Cisco Networking Academy}} \\ \vspace{2pt}
+    \small{-- \textbf{Foundations of Cybersecurity} \\ \textit{Google Certificate}}
+
+  \vspace{0.08in}
+
+  %-----------ACHIEVEMENTS-----------
+  \section{Achievements}
+    \small{-- \textbf{3rd Place} \\ \textit{National CTF} \\ \footnotesize{ASIET Hackathon (50+ teams)}} \\ \vspace{3pt}
+    \small{-- \textbf{Advent of Cyber 2024} \\ \textit{TryHackMe Challenge} \\ \footnotesize{Completed 24-day security labs}}
+
+  \vspace{0.08in}
+
+  %-----------LANGUAGES-----------
+  \section{Languages}
+    \small{-- \textbf{English} (Professional)}\\
+    \small{-- \textbf{Malayalam} (Native)}
+
+\end{minipage}
+\hfill % Push columns apart
+\begin{minipage}[t]{0.63\textwidth}
+  \raggedright
+
+  %-----------PROFESSIONAL SUMMARY-----------
+  \section{Professional Summary}
+    \small{Results-driven Computer Science (Cybersecurity) graduate with hands-on experience in Security Operations (SOC), AWS cloud security, and Linux administration (AlmaLinux/Ubuntu Server). Skilled in scripting, system auditing, and network security configuration. Proven leadership capabilities as Department Chairman and NSS Secretary. Seeking entry-level roles in SOC, Cloud/Security Operations, or Linux Support.}
+
+  \vspace{0.06in}
+
+  %-----------EXPERIENCE-----------
+  \section{Experience}
+
+    \textbf{Junior Server Administrator} \hfill \small{May 2026 -- Present} \\
+    \textit{\small{Hashroot | Kakkanad, Kochi (Infopark)}}
+    \resumeItemListStart
+      \resumeItem{Assisted in Linux (AlmaLinux, Ubuntu) and Windows server administration, user management, and security patch deployments.}
+      \resumeItem{Configured remote access protocols (SSH, firewalls) and deployed infrastructure monitoring agents on AWS instances (EC2, S3).}
+    \resumeItemListEnd
+
+    \vspace{0.04in}
+    
+    \textbf{Cybersecurity \& Ethical Hacking Intern} \hfill \small{June 2025} \\
+    \textit{\small{Techmagi | Kakkanad, Kochi}}
+    \resumeItemListStart
+      \resumeItem{Performed network scanning, host reconnaissance, and vulnerability analysis using Nmap and Burp Suite in sandboxed lab environments.}
+      \resumeItem{Analyzed traffic logs with Wireshark and drafted technical VAPT reports mapping findings to CVSS metrics.}
+    \resumeItemListEnd
+
+    \vspace{0.04in}
+
+    \textbf{Ethical Hacking Intern} \hfill \small{Jan 2025} \\
+    \textit{\small{Techbyheart | Kochi, Kerala}}
+    \resumeItemListStart
+      \resumeItem{Conducted vulnerability assessments and penetration testing simulations on Linux-based virtual environments.}
+      \resumeItem{Identified weaknesses in standard services (SSH, FTP) and offered actionable remediation solutions.}
+    \resumeItemListEnd
+
+  \vspace{0.06in}
+
+  %-----------PROJECTS-----------
+  \section{Projects}
+
+    \textbf{AI Endpoint Detection \& Response (EDR)} \hfill \small{Python, LLM}
+    \resumeItemListStart
+      \resumeItem{Engineered a simulated EDR host agent to monitor operating system logs and detect threat patterns in real-time.}
+      \resumeItem{Built a Python-based pipeline to parse logs, integrating an LLM classifier to reduce triage overhead by 40\%.}
+      \resumeItem{Programmed automated response actions (e.g. process termination) upon high-risk threat triggers.}
+    \resumeItemListEnd
+
+    \vspace{0.04in}
+
+    \textbf{Wireless Device Localization System} \hfill \small{ESP32, Python GUI}
+    \resumeItemListStart
+      \resumeItem{Developed a hardware-software system using ESP32 to monitor wireless networks and localize Wi-Fi/Bluetooth signals with ~95\% accuracy.}
+      \resumeItem{Created a custom Python desktop GUI for real-time visualization of tracked physical devices and signal logs.}
+    \resumeItemListEnd
+
+    \vspace{0.04in}
+
+    \textbf{AI Security \& Prompt Injection Testing} \hfill \small{AI Threat Research}
+    \resumeItemListStart
+      \resumeItem{Analyzed LLM prompt injection and security manipulation techniques, mapping findings to the OWASP Top 10 for LLMs.}
+    \resumeItemListEnd
+
+  \vspace{0.06in}
+
+  %-----------LEADERSHIP & EXTRA-CURRICULAR-----------
+  \section{Leadership \& Co-Curricular}
+    \resumeItemListStart
+      \resumeItem{\textbf{Department Chairman (AI \& Computer Science Association):} Managed 15+ student coordinators to host tech fests and workshops for 300+ peers.}
+      \resumeItem{\textbf{NSS Volunteer Secretary:} Led regional community initiatives and structured communications with college administration.}
+      \resumeItem{\textbf{College Union Representative:} Elected student advocate for two consecutive terms, managing campus-wide academic and cultural programs.}
+    \resumeItemListEnd
+
+\end{minipage}
+
+\end{document}

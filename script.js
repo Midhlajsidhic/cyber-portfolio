@@ -73,7 +73,7 @@ CORE SKILLS
 =========================================
 PROFESSIONAL EXPERIENCE
 =========================================
-Server Administrator Intern
+Junior Server Administrator
 Hashroot | Kakkanad, Kochi (Infopark) (May 2026 - Present)
 * Assisted in Linux (AlmaLinux, Ubuntu) and Windows server administration, user management, and security patch deployments.
 * Configured remote access protocols (SSH, firewalls) and deployed infrastructure monitoring agents on AWS instances (EC2, S3).
@@ -229,7 +229,7 @@ ACHIEVEMENTS & LEADERSHIP
 
             case 'experience':
                 writeTerminalLine('--- PROFESSIONAL INTERNSHIPS ---', 'text-yellow');
-                writeTerminalLine('1. Server Administrator Intern @ Hashroot, Kakkanad (May 2026 - Present)', 'text-cyan');
+                writeTerminalLine('1. Junior Server Administrator @ Hashroot, Kakkanad (May 2026 - Present)', 'text-cyan');
                 writeTerminalLine('   * Administered Linux (AlmaLinux/Ubuntu) & Windows systems; deployed monitoring on AWS (EC2/S3).');
                 writeTerminalLine('2. Cybersecurity & VAPT Intern @ Techmagi, Kakkanad (June 2025)', 'text-cyan');
                 writeTerminalLine('   * Managed network audits using Kali Linux frameworks, drafting CVSS vulnerability logs.');
