@@ -1,117 +1,110 @@
 # Midhlaj Sidhick
-**Cybersecurity Engineer | SOC Analyst | Security Operations**
+**Application Security Engineer | Offensive Security Engineer | Junior Server Administrator**
 
-- 📞 **Phone:** [+91 9605114550](tel:+919605114550)
-- 📧 **Email:** [midhlajsidhick1@gmail.com](mailto:midhlajsidhick1@gmail.com)
+- 📱 **Phone:** [+91 9605114550](tel:+919605114550)
+- ✉️ **Email:** [midhlajsidhick1@gmail.com](mailto:midhlajsidhick1@gmail.com)
 - 🔗 **LinkedIn:** [linkedin.com/in/midhlaj-sidick007](https://linkedin.com/in/midhlaj-sidick007)
-- 💻 **Portfolio & Labs:** [midhlajsidhic.github.io/cyber-portfolio/](https://midhlajsidhic.github.io/cyber-portfolio/)
+- 💻 **GitHub:** [github.com/midhlajsidhic](https://github.com/midhlajsidhic)
+- 🌐 **Portfolio:** [midhlajsidhic.github.io/cyber-portfolio/](https://midhlajsidhic.github.io/cyber-portfolio/)
 
 ---
 
-## 🛠️ Core Skills
+## 🎯 Profile Highlights
+- **Validated RCE vulnerability** responsibly disclosed to IBS Software.
+- First security researcher selected for the **IBS Software Security Hall of Fame** (Recognition confirmed by IBS Software Security Team; public Hall of Fame page pending publication).
+- **Junior Server Administrator** at Hashroot Technologies, managing production workloads.
+- Active researcher conducting application security reviews and responsible disclosures.
+- Deep hands-on experience in AppSec, VAPT, Linux Hardening, AWS Security, and Automation.
 
-### Security Operations & SIEM
-- Log Analysis & Auditing
-- Threat Detection & Monitoring
-- Incident Response Workflows
-- ELK Stack (Basics)
+---
 
-### VAPT & Offensive Security
-- Network Scanning
-- Vulnerability Assessment
-- Reconnaissance & OSINT
-- Penetration Testing
+## 🛡️ Responsible Disclosure Philosophy
+> I believe security research should strengthen products through responsible disclosure, clear communication, reproducible evidence, and collaborative remediation.
 
-### Tools & Technologies
-- Nmap, Burp Suite, Wireshark, Hydra, Autopsy
-- ESP32 Microcontrollers, Git, GitHub
-- Linux (AlmaLinux, Rocky, Kali, Ubuntu Server)
-- AWS (EC2, S3, IAM, VPC), Windows Server
-- TCP/IP, Firewalls, Network Routing
+---
 
-### Programming & Automation
-- Python (Scripting, Log Analysis Pipelines, Security Automation)
-- Bash Scripting
+## 🛡️ Validated Responsible Disclosure
+### Remote Code Execution (RCE) — IBS Software
+- Identified and responsibly disclosed a Remote Code Execution (RCE) vulnerability affecting IBS Software systems.
+- Authored a professional proof-of-concept (PoC) exploit and detailed risk report outlining the severity.
+- IBS Software Security Team validated the vulnerability and implemented immediate containment.
+- Selected as the first security researcher to be recognized in the IBS Software Security Hall of Fame (Recognition confirmed by IBS Software Security Team; public Hall of Fame page pending publication).
 
 ---
 
 ## 💼 Professional Experience
 
 ### Junior Server Administrator
-**Hashroot, Kakkanad, Kochi (Infopark)** | *May 2026 – Present*
-- Assisted in Linux (AlmaLinux, Ubuntu) and Windows server administration, user management, and security patch deployments.
-- Configured remote access protocols (SSH, firewalls) and deployed infrastructure monitoring agents on AWS instances (EC2, S3).
+**Hashroot Technologies** | *Kakkanad, Kochi (Full-time)* | *May 2026 – Present*
+- Performed internal application security assessments alongside infrastructure operations, identifying Google Cloud API key exposures and critical configuration flaws in Ghost CMS.
+- Validated security vulnerabilities through responsible disclosure, authoring detailed technical reports adopted by security and engineering teams for remediation.
+- Supported production Linux (AlmaLinux, Ubuntu) and Windows server environments, troubleshooting infrastructure bottlenecks and system anomalies.
+- Configured AWS cloud infrastructure (EC2, S3, IAM, VPC), enforcing least-privilege access controls and auditing network security groups.
+- Audited HTTP response headers, Content Security Policies (CSP), and CORS rules to mitigate information disclosure risks.
+- Implemented host hardening, secure SSH protocols, firewall configurations, and automated log monitoring.
 
 ### Cybersecurity & Ethical Hacking Intern
-**Techmagi, Kakkanad, Kochi** | *June 2025*
-- Performed network scanning, host reconnaissance, and vulnerability analysis using Nmap and Burp Suite in sandboxed lab environments.
-- Analyzed network traffic logs with Wireshark to isolate suspicious patterns.
-- Drafted technical vulnerability assessment reports mapping critical findings against standard CVSS metrics.
+**Techmagi** | *Kakkanad, Kochi* | *June 2025*
+- Conducted black-box web application assessments using Nmap and Burp Suite to validate OWASP Top 10 vulnerabilities (XSS, SQLi, Auth bypass).
+- Drafted technical reports detailing vulnerability assessments, CVSS metrics, risk rankings, and remediation validation.
 
 ### Ethical Hacking Intern
-**Techbyheart, Kochi, Kerala** | *Jan 2025*
-- Conducted vulnerability assessments and penetration testing simulations on Linux-based virtual environments.
-- Identified and reported weaknesses in SSH, FTP, and web services, offering actionable remediation options.
-- Prepared actionable security logs and reporting templates used by project teams to resolve simulated system exposures.
+**Techbyheart** | *Kochi, Kerala* | *January 2025*
+- Conducted vulnerability scanning and configuration audits across standard service ports (SSH, FTP, HTTP) in sandboxed virtual labs.
+- Created proof-of-concept scripts in Python to demonstrate impact and validate security bugs.
 
 ---
 
-## 🚀 Project Experience
-
-### AI-Powered Endpoint Detection & Response (EDR) System
-*Python, LLM, Log Pipelines*
-- Engineered a simulated EDR host agent in Python to monitor operating system logs and detect threat patterns in real-time.
-- Built a Python-based pipeline to parse system event logs and flag malicious behaviors (e.g., brute-force attacks).
-- Integrated an LLM-based alert classifier to evaluate event logs, reducing security alert investigation overhead by 40%.
-- Programmed automated response actions (e.g., terminating suspicious processes) upon high-risk detection triggers.
-
-### Wireless Device Localization System
-*ESP32, Python GUI, Networking*
-- Developed a hardware-software system using ESP32 to monitor wireless networks and track Wi-Fi/Bluetooth signals.
-- Programmed RSSI-based localization tracking with ~95% accuracy and a 1-2 second scanning response time.
-- Created a custom Python desktop GUI for real-time visualization of tracked physical devices and signal logs.
-- Enabled security use cases such as detecting unauthorized device presence in secure facility zones and monitoring network traffic patterns.
-
-### AI Security & Prompt Injection Testing
-*AI Threat Research, OWASP LLM*
-- Conducted practical testing of prompt injection and adversarial attacks on LLM interfaces.
-- Analyzed LLM prompt injection and security manipulation techniques, mapping findings to the OWASP Top 10 for LLMs.
-- Formulated defense strategies (input validation, system prompt hardening) to secure AI integrations against malicious prompt exploits.
+## 🔍 Security Research & Assessments
+- **IBS Software**: Disclosed validated RCE; developed safe PoC exploit; report validated for immediate remediation; recognized in Hall of Fame.
+- **Hashroot**: Discovered Google Cloud API key exposure and Ghost CMS security misconfigurations; resolved API keys and hardened CMS routing.
+- **ICET (WordPress Security Review)**: Performed application audits on WordPress staging environments; responsibly disclosed configurations and plugin bugs; mapped risk business impacts.
 
 ---
 
-## 🎓 Education
+## 🛠️ Technical Security Stack
+- **Application Security**: OWASP Top 10, API Security, AuthN/AuthZ Testing, Business Logic Testing, Security Reporting.
+- **Penetration Testing & Recon**: Burp Suite, Nmap, ffuf, httpx, subfinder, Amass, Nuclei, Reconnaissance.
+- **Infrastructure & Systems**: Linux Administration, SSH, Apache, Nginx, System Hardening, AWS (EC2, S3, IAM, VPC), Docker, Networking.
+- **Monitoring & SIEM**: Wazuh, Elastic Stack (ELK), Ollama Integration, Log Auditing, System Monitoring.
+- **Programming & Automation**: Python, JavaScript, Bash Scripting, Git, REST APIs.
 
-### B.Tech in Computer Science (Cybersecurity)
-**Ilahia College of Engineering** | *2022 - 2026*
-- Affiliated with APJ Abdul Kalam Technological University (KTU), Kerala, India.
+---
+
+## 📝 Security Writing & Documentation
+- **Responsible Disclosure Reports**: Mapped CVSS scoring, technical summaries, and remediation recommendations.
+- **Internal Security Assessments**: Drafted infrastructure audit logs, credential exposures, and server hardening steps.
+- **Executive Summaries**: Formulated high-level risk and business impact analysis for corporate leadership.
+- **Proof-of-Concept (PoC) Documentation**: Outlined step-by-step reproduction and validation scripts.
+- **Remediation Guidance**: Provided actionable system hardening code blocks and configuration recommendations.
+
+---
+
+## 📈 Current Focus
+- Application Security | Product Security | Secure SDLC | Threat Modeling | Cloud Security | Container Security | API Security
+
+---
+
+## 🚀 Projects
+### AI-Powered EDR System (Python, Wazuh, Elastic, Ollama)
+- Developed an endpoint agent in Python to ingest logs into Elastic Stack & Wazuh, integrating Ollama LLM for automated alert triage.
+- Programmed automated containment workflows (process termination, route isolation), reducing security alert overhead by 40%.
+
+### ESP32 Localization & Signal Tracking (ESP32, Python)
+- Programmed RSSI-based tracking algorithms with custom firmware, locating wireless devices with ~95% precision.
+- Created Python automation scripts to capture probe frames and visualize target coordinates.
 
 ---
 
 ## 📜 Certifications
-
-- **Ethical Hacking** — Offense Hackers Academy
-- **Ethical Hacking** — Cisco Networking Academy
-- **Foundations of Cybersecurity** — Google
-
----
-
-## 🏆 Achievements
-
-- **3rd Place — National CTF (ASIET Hackathon):** Competed against 50+ collegiate teams nationwide; solved challenges across Web Exploitation, Cryptography, and Forensics.
-- **TryHackMe Advent of Cyber 2024:** Completed 24 days of hands-on challenges covering SOC operations, threat intelligence, cloud security, and log analysis.
+- **Cisco Certified Ethical Hacker** — Cisco Networking Academy
+- **Offenso Certified Ethical Hacker** — Offense Hackers Academy
+- **Google Cybersecurity Professional Certificate**
 
 ---
 
-## 👔 Leadership & Co-Curricular
-
-- **Department Chairman (AI & Computer Science Association):** Managed a team of 15+ student coordinators to host tech fests and workshops for 300+ peers.
-- **NSS Volunteer Secretary:** Led regional community initiatives and structured communications with college administration.
-- **College Union Representative:** Elected student advocate for two consecutive terms, managing campus-wide academic and cultural programs.
-
----
-
-## 🌐 Languages
-
-- **English** — Professional Professional
-- **Malayalam** — Native or Bilingual
+## 🎓 Education
+### B.Tech in Computer Science (Cybersecurity)
+**Ilahia College of Engineering** | *APJ Abdul Kalam Technological University, Kerala* | *2022 - 2026*
+- **TryHackMe Advent of Cyber**: Completed 24 days of hands-on challenges in SOC operations, threat intelligence, and log analysis.
+- **Leadership**: Managed 15+ student coordinators to host tech fests and security workshops.

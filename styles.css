@@ -809,3 +809,267 @@ body.light-theme .control-btn:hover {
         print-color-adjust: exact !important;
     }
 }
+
+
+/* --- PROFESSIONAL RESUME REDESIGN MERGED STYLES --- */
+/* GENERAL STYLES */
+/* reset override */ .reset-disabled {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body override */ .resume-body-disabled {
+    font-family: 'Inter', sans-serif;
+    color: #1e293b;
+    background-color: #f8fafc;
+    line-height: 1.4;
+    font-size: 11px;
+    padding: 20px;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+.print-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+/* HEADER styling */
+.resume-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid #0f172a;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.header-main {
+    flex: 1;
+}
+
+.candidate-name {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    color: #0f172a;
+    line-height: 1.1;
+}
+
+.candidate-title {
+    font-size: 12px;
+    font-weight: 500;
+    color: #06b6d4;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 4px;
+}
+
+.contact-info {
+    text-align: right;
+    font-size: 10px;
+    color: #475569;
+}
+
+.contact-info p {
+    margin-bottom: 2px;
+}
+
+.contact-info a {
+    color: #1e293b;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-info a:hover {
+    color: #06b6d4;
+    text-decoration: underline;
+}
+
+/* SECTION layouts */
+.resume-section {
+    margin-bottom: 14px;
+}
+
+.section-title {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid #cbd5e1;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+    color: #0f172a;
+}
+
+/* HIGHLIGHTS list */
+.highlights-list {
+    list-style-type: square;
+    margin-left: 16px;
+}
+
+.highlights-list li {
+    margin-bottom: 3px;
+}
+
+/* EXPERIENCE section */
+.experience-item {
+    margin-bottom: 10px;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    color: #0f172a;
+    font-size: 11px;
+}
+
+.item-subheader {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    color: #475569;
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+
+.job-role {
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.item-bullets {
+    list-style-type: disc;
+    margin-left: 16px;
+}
+
+.item-bullets li {
+    margin-bottom: 2px;
+}
+
+/* SECURITY RESEARCH layout */
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.research-item {
+    font-size: 10px;
+    background-color: #f8fafc;
+    padding: 8px;
+    border-radius: 4px;
+    border-left: 3px solid #06b6d4;
+}
+
+.research-item strong {
+    display: block;
+    color: #0f172a;
+    margin-bottom: 3px;
+    font-size: 10.5px;
+}
+
+/* PROJECTS layout */
+.project-item {
+    margin-bottom: 8px;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    font-size: 11px;
+}
+
+.project-header strong {
+    color: #0f172a;
+}
+
+/* SKILLS grid styling */
+.skills-resume-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.skills-resume-grid p {
+    font-size: 10px;
+}
+
+/* EDUCATION / CREDENTIALS */
+.edu-cert-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.edu-item, .cert-item {
+    flex: 1;
+    font-size: 10px;
+}
+
+.cert-item {
+    text-align: right;
+}
+
+/* PRINT BUTTON STYLING */
+.print-button-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.print-btn {
+    background-color: #0f172a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.print-btn:hover {
+    background-color: #06b6d4;
+}
+
+/* PRINT MEDIA OVERRIDES */
+@media print {
+    /* body override */ .resume-body-disabled {
+        background-color: #ffffff;
+        padding: 0;
+        margin: 0;
+    }
+
+    .print-container {
+        box-shadow: none;
+        padding: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .no-print {
+        display: none !important;
+    }
+
+    /* Keep it single-page by adjusting spacing tightly on print */
+    .resume-section {
+        margin-bottom: 10px;
+    }
+
+    .section-title {
+        margin-bottom: 5px;
+    }
+
+    .experience-item {
+        margin-bottom: 6px;
+    }
+}
