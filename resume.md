@@ -10,8 +10,7 @@
 ---
 
 ## 🎯 Profile Highlights
-- **Validated RCE vulnerability** responsibly disclosed to IBS Software.
-- First security researcher selected for the **IBS Software Security Hall of Fame** (Recognition confirmed by IBS Software Security Team; public Hall of Fame page pending publication).
+- **CVE-2026-48908 &mdash; Validated RCE vulnerability** responsibly disclosed to IBS Software; published in the **[IBS Software Security Hall of Fame](https://www.ibsplc.com/security/security-hall-of-fame)**.
 - **Junior Server Administrator** at Hashroot Technologies, managing production workloads.
 - Active researcher conducting application security reviews and responsible disclosures.
 - Deep hands-on experience in AppSec, VAPT, Linux Hardening, AWS Security, and Automation.
@@ -25,10 +24,10 @@
 
 ## 🛡️ Validated Responsible Disclosure
 ### Remote Code Execution (RCE) — IBS Software
-- Identified and responsibly disclosed a Remote Code Execution (RCE) vulnerability affecting IBS Software systems.
+- Identified and responsibly disclosed a Remote Code Execution (RCE) vulnerability (CVE-2026-48908) affecting IBS Software systems.
 - Authored a professional proof-of-concept (PoC) exploit and detailed risk report outlining the severity.
 - IBS Software Security Team validated the vulnerability and implemented immediate containment.
-- Selected as the first security researcher to be recognized in the IBS Software Security Hall of Fame (Recognition confirmed by IBS Software Security Team; public Hall of Fame page pending publication).
+- Published in the **[IBS Software Security Hall of Fame](https://www.ibsplc.com/security/security-hall-of-fame)**.
 
 ---
 
@@ -56,7 +55,7 @@
 ---
 
 ## 🔍 Security Research & Assessments
-- **IBS Software**: Disclosed validated RCE; developed safe PoC exploit; report validated for immediate remediation; recognized in Hall of Fame.
+- **IBS Software**: Disclosed validated RCE (CVE-2026-48908); developed safe PoC exploit; report validated for immediate remediation; published in **[IBS Software Security Hall of Fame](https://www.ibsplc.com/security/security-hall-of-fame)**.
 - **Hashroot**: Discovered Google Cloud API key exposure and Ghost CMS security misconfigurations; resolved API keys and hardened CMS routing.
 - **ICET (WordPress Security Review)**: Performed application audits on WordPress staging environments; responsibly disclosed configurations and plugin bugs; mapped risk business impacts.
 

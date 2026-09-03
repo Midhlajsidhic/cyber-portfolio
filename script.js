@@ -56,8 +56,7 @@ Portfolio: midhlajsidhic.github.io/cyber-portfolio/ (Professional AppSec Redesig
 =========================================
 PROFILE HIGHLIGHTS
 =========================================
-* Validated Remote Code Execution (RCE) vulnerability disclosure to IBS Software.
-* First researcher selected for the IBS Software Security Hall of Fame (Recognition confirmed by IBS Software Security Team; public Hall of Fame page pending publication).
+* CVE-2026-48908 — Validated Remote Code Execution (RCE) vulnerability responsibly disclosed to IBS Software; published in the IBS Software Security Hall of Fame (https://www.ibsplc.com/security/security-hall-of-fame).
 * Junior Server Administrator at Hashroot Technologies, managing production infrastructure.
 * Active security researcher conducting responsible disclosures and internal AppSec assessments.
 * Proficient in Application Security, PenTesting, Linux Systems, AWS Cloud, and Automation.
@@ -97,7 +96,7 @@ Remote Code Execution (RCE) - IBS Software
 * Identified and responsibly disclosed a Remote Code Execution (RCE) vulnerability affecting IBS Software systems.
 * Authored a professional proof-of-concept (PoC) exploit and comprehensive risk report.
 * IBS Software Security Team validated the issue and deployed immediate containment measures.
-* Selected as the first security researcher to be recognized in the IBS Software Security Hall of Fame (Recognition confirmed by IBS Software Security Team; public Hall of Fame page pending publication).
+* Selected as the first security researcher to be recognized in the IBS Software Security Hall of Fame (https://www.ibsplc.com/security/security-hall-of-fame).
 
 =========================================
 PROFESSIONAL EXPERIENCE
@@ -124,7 +123,7 @@ Techbyheart | Kochi, Kerala | January 2025
 =========================================
 SECURITY RESEARCH & ASSESSMENTS
 =========================================
-* IBS Software: Disclosed validated RCE; developed safe PoC exploit; report validated for immediate remediation; recognized in Hall of Fame (recognition confirmed; public listing pending publication).
+* IBS Software: Disclosed validated RCE (CVE-2026-48908); developed safe PoC exploit; report validated for immediate remediation; published in IBS Software Security Hall of Fame (https://www.ibsplc.com/security/security-hall-of-fame).
 * Hashroot: Internal assessment of corporate instances; discovered Google Cloud API exposure and Ghost CMS security misconfigurations; resolved API keys and hardened CMS routing.
 * ICET (WordPress Security Review): Performed application audits on WordPress staging environments; responsibly disclosed configurations and plugin bugs; mapped risk business impacts.
 
@@ -261,8 +260,8 @@ Ilahia College of Engineering | APJ Abdul Kalam Technological University, Kerala
 
             case 'research':
                 writeTerminalLine('--- VALIDATED RESPONSIBLE DISCLOSURES ---', 'text-yellow');
-                writeTerminalLine('1. IBS Software (Validated Remote Code Execution)', 'text-cyan');
-                writeTerminalLine('   * Disclosed RCE vulnerability. Recognition confirmed; Hall of Fame pending publication.');
+                writeTerminalLine('1. IBS Software (Validated Remote Code Execution — CVE-2026-48908)', 'text-cyan');
+                writeTerminalLine('   * Disclosed RCE vulnerability. Published in <a href="https://www.ibsplc.com/security/security-hall-of-fame" target="_blank" style="color:#00ff66; text-decoration:underline;">IBS Software Security Hall of Fame</a>.');
                 writeTerminalLine('2. Hashroot Technologies (Internal AppSec Assessments)', 'text-cyan');
                 writeTerminalLine('   * Discovered Google Cloud API exposure & Ghost CMS configurations; hardened Nginx routing.');
                 writeTerminalLine('3. ICET (WordPress Security Review)', 'text-cyan');
